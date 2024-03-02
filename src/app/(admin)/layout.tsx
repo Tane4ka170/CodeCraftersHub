@@ -6,11 +6,10 @@ export interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  console.log('rendering');
   return (
     <>
       <Sidebar />
-      <div className=" ml-60">{children}</div>
+      <div className="ml-60">{children}</div>
     </>
   );
 }
